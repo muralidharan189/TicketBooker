@@ -19,7 +19,6 @@ public class LoginController {
 	@Autowired
 	private BookerServiceImpl bookerService;
 
-
 	@RequestMapping(value="/login", method=RequestMethod.GET)
 	public ModelAndView loginControl(HttpServletRequest request, HttpServletResponse response){
 		ModelAndView mav = new ModelAndView("login");
